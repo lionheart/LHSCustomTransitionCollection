@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37594F1F186F7AF700360953 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37594F1E186F7AF700360953 /* Foundation.framework */; };
+		37594F21186F7AF700360953 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37594F20186F7AF700360953 /* CoreGraphics.framework */; };
+		37594F23186F7AF700360953 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37594F22186F7AF700360953 /* UIKit.framework */; };
+		37594F5E186F7E5C00360953 /* LHSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37594F5D186F7E5C00360953 /* LHSAppDelegate.m */; };
+		37594F60186F7E6900360953 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37594F5F186F7E6900360953 /* Images.xcassets */; };
+		37594F64186F7E7900360953 /* LHS Custom Transition Collection-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37594F61186F7E7900360953 /* LHS Custom Transition Collection-Info.plist */; };
+		37594F65186F7E7900360953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37594F63186F7E7900360953 /* main.m */; };
+		37594F68186F7E9B00360953 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37594F66186F7E9B00360953 /* InfoPlist.strings */; };
+		37594F6B186F806B00360953 /* LHSSideMenuAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 37594F6A186F806B00360953 /* LHSSideMenuAnimator.m */; };
+		37594F6E186F807800360953 /* LHSSideMenuTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 37594F6D186F807800360953 /* LHSSideMenuTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37594F1B186F7AF700360953 /* LHS Custom Transition Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "LHS Custom Transition Collection.app"; path = LHSCustomTransitionCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37594F1E186F7AF700360953 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37594F20186F7AF700360953 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37594F22186F7AF700360953 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37594F5C186F7E5C00360953 /* LHSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSAppDelegate.h; path = LHSCustomTransitionCollection/LHSAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		37594F5D186F7E5C00360953 /* LHSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHSAppDelegate.m; path = LHSCustomTransitionCollection/LHSAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		37594F5F186F7E6900360953 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LHSCustomTransitionCollection/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		37594F61186F7E7900360953 /* LHS Custom Transition Collection-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "LHS Custom Transition Collection-Info.plist"; path = "LHSCustomTransitionCollection/LHS Custom Transition Collection-Info.plist"; sourceTree = SOURCE_ROOT; };
+		37594F62186F7E7900360953 /* LHS Custom Transition Collection-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LHS Custom Transition Collection-Prefix.pch"; path = "LHSCustomTransitionCollection/LHS Custom Transition Collection-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		37594F63186F7E7900360953 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LHSCustomTransitionCollection/main.m; sourceTree = SOURCE_ROOT; };
+		37594F67186F7E9B00360953 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LHSCustomTransitionCollection/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		37594F69186F806B00360953 /* LHSSideMenuAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSSideMenuAnimator.h; path = Sources/Animators/LHSSideMenuAnimator.h; sourceTree = SOURCE_ROOT; };
+		37594F6A186F806B00360953 /* LHSSideMenuAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHSSideMenuAnimator.m; path = Sources/Animators/LHSSideMenuAnimator.m; sourceTree = SOURCE_ROOT; };
+		37594F6C186F807800360953 /* LHSSideMenuTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSSideMenuTransition.h; path = Sources/Transitions/LHSSideMenuTransition.h; sourceTree = SOURCE_ROOT; };
+		37594F6D186F807800360953 /* LHSSideMenuTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHSSideMenuTransition.m; path = Sources/Transitions/LHSSideMenuTransition.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37594F18186F7AF700360953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37594F21186F7AF700360953 /* CoreGraphics.framework in Frameworks */,
+				37594F23186F7AF700360953 /* UIKit.framework in Frameworks */,
+				37594F1F186F7AF700360953 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37594F12186F7AF700360953 = {
+			isa = PBXGroup;
+			children = (
+				37594F24186F7AF700360953 /* LHSCustomTransitionCollection */,
+				37594F1D186F7AF700360953 /* Frameworks */,
+				37594F1C186F7AF700360953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37594F1C186F7AF700360953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37594F1B186F7AF700360953 /* LHS Custom Transition Collection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37594F1D186F7AF700360953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37594F1E186F7AF700360953 /* Foundation.framework */,
+				37594F20186F7AF700360953 /* CoreGraphics.framework */,
+				37594F22186F7AF700360953 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37594F24186F7AF700360953 /* LHSCustomTransitionCollection */ = {
+			isa = PBXGroup;
+			children = (
+				37594F5F186F7E6900360953 /* Images.xcassets */,
+				37594F4E186F7B2800360953 /* Animators */,
+				37594F4D186F7B1D00360953 /* Transitions */,
+				37594F5C186F7E5C00360953 /* LHSAppDelegate.h */,
+				37594F5D186F7E5C00360953 /* LHSAppDelegate.m */,
+				37594F25186F7AF700360953 /* Supporting Files */,
+			);
+			name = LHSCustomTransitionCollection;
+			path = "LHS Custom Transition Collection";
+			sourceTree = "<group>";
+		};
+		37594F25186F7AF700360953 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37594F66186F7E9B00360953 /* InfoPlist.strings */,
+				37594F61186F7E7900360953 /* LHS Custom Transition Collection-Info.plist */,
+				37594F62186F7E7900360953 /* LHS Custom Transition Collection-Prefix.pch */,
+				37594F63186F7E7900360953 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37594F4D186F7B1D00360953 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				37594F6C186F807800360953 /* LHSSideMenuTransition.h */,
+				37594F6D186F807800360953 /* LHSSideMenuTransition.m */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		37594F4E186F7B2800360953 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				37594F69186F806B00360953 /* LHSSideMenuAnimator.h */,
+				37594F6A186F806B00360953 /* LHSSideMenuAnimator.m */,
+			);
+			name = Animators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37594F1A186F7AF700360953 /* LHSCustomTransitionCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37594F47186F7AF800360953 /* Build configuration list for PBXNativeTarget "LHSCustomTransitionCollection" */;
+			buildPhases = (
+				37594F17186F7AF700360953 /* Sources */,
+				37594F18186F7AF700360953 /* Frameworks */,
+				37594F19186F7AF700360953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHSCustomTransitionCollection;
+			productName = "LHS Custom Transition Collection";
+			productReference = 37594F1B186F7AF700360953 /* LHS Custom Transition Collection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37594F13186F7AF700360953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LHS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lionheart Software LLC";
+			};
+			buildConfigurationList = 37594F16186F7AF700360953 /* Build configuration list for PBXProject "LHSCustomTransitionCollection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37594F12186F7AF700360953;
+			productRefGroup = 37594F1C186F7AF700360953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37594F1A186F7AF700360953 /* LHSCustomTransitionCollection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37594F19186F7AF700360953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37594F60186F7E6900360953 /* Images.xcassets in Resources */,
+				37594F68186F7E9B00360953 /* InfoPlist.strings in Resources */,
+				37594F64186F7E7900360953 /* LHS Custom Transition Collection-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37594F17186F7AF700360953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37594F65186F7E7900360953 /* main.m in Sources */,
+				37594F6E186F807800360953 /* LHSSideMenuTransition.m in Sources */,
+				37594F6B186F806B00360953 /* LHSSideMenuAnimator.m in Sources */,
+				37594F5E186F7E5C00360953 /* LHSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37594F66186F7E9B00360953 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37594F67186F7E9B00360953 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37594F45186F7AF800360953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37594F46186F7AF800360953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37594F48186F7AF800360953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LHS Custom Transition Collection/LHS Custom Transition Collection-Prefix.pch";
+				INFOPLIST_FILE = "LHS Custom Transition Collection/LHS Custom Transition Collection-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37594F49186F7AF800360953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LHS Custom Transition Collection/LHS Custom Transition Collection-Prefix.pch";
+				INFOPLIST_FILE = "LHS Custom Transition Collection/LHS Custom Transition Collection-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37594F16186F7AF700360953 /* Build configuration list for PBXProject "LHSCustomTransitionCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37594F45186F7AF800360953 /* Debug */,
+				37594F46186F7AF800360953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37594F47186F7AF800360953 /* Build configuration list for PBXNativeTarget "LHSCustomTransitionCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37594F48186F7AF800360953 /* Debug */,
+				37594F49186F7AF800360953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37594F13186F7AF700360953 /* Project object */;
+}
