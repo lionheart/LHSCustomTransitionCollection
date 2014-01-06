@@ -8,6 +8,7 @@
 
 #import "LHSSideMenuAnimator.h"
 #import "LHSSideMenuTransition.h"
+#import <UIKit/UIKit.h>
 
 @implementation LHSSideMenuAnimator
 

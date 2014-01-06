@@ -17,10 +17,12 @@
 		37594F68186F7E9B00360953 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37594F66186F7E9B00360953 /* InfoPlist.strings */; };
 		37594F6B186F806B00360953 /* LHSSideMenuAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 37594F6A186F806B00360953 /* LHSSideMenuAnimator.m */; };
 		37594F6E186F807800360953 /* LHSSideMenuTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 37594F6D186F807800360953 /* LHSSideMenuTransition.m */; };
+		3769A581187A267C00AC8C44 /* LHSTuckUnderAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769A580187A267C00AC8C44 /* LHSTuckUnderAnimator.m */; };
+		3769A584187A268A00AC8C44 /* LHSTuckUnderTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769A583187A268A00AC8C44 /* LHSTuckUnderTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37594F1B186F7AF700360953 /* LHS Custom Transition Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "LHS Custom Transition Collection.app"; path = LHSCustomTransitionCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37594F1B186F7AF700360953 /* LHSCustomTransitionCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHSCustomTransitionCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37594F1E186F7AF700360953 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37594F20186F7AF700360953 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		37594F22186F7AF700360953 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -35,6 +37,10 @@
 		37594F6A186F806B00360953 /* LHSSideMenuAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHSSideMenuAnimator.m; path = Sources/Animators/LHSSideMenuAnimator.m; sourceTree = SOURCE_ROOT; };
 		37594F6C186F807800360953 /* LHSSideMenuTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSSideMenuTransition.h; path = Sources/Transitions/LHSSideMenuTransition.h; sourceTree = SOURCE_ROOT; };
 		37594F6D186F807800360953 /* LHSSideMenuTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHSSideMenuTransition.m; path = Sources/Transitions/LHSSideMenuTransition.m; sourceTree = SOURCE_ROOT; };
+		3769A57F187A267C00AC8C44 /* LHSTuckUnderAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSTuckUnderAnimator.h; path = Sources/Animators/LHSTuckUnderAnimator.h; sourceTree = SOURCE_ROOT; };
+		3769A580187A267C00AC8C44 /* LHSTuckUnderAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHSTuckUnderAnimator.m; path = Sources/Animators/LHSTuckUnderAnimator.m; sourceTree = SOURCE_ROOT; };
+		3769A582187A268A00AC8C44 /* LHSTuckUnderTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSTuckUnderTransition.h; path = Sources/Transitions/LHSTuckUnderTransition.h; sourceTree = SOURCE_ROOT; };
+		3769A583187A268A00AC8C44 /* LHSTuckUnderTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHSTuckUnderTransition.m; path = Sources/Transitions/LHSTuckUnderTransition.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +69,7 @@
 		37594F1C186F7AF700360953 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37594F1B186F7AF700360953 /* LHS Custom Transition Collection.app */,
+				37594F1B186F7AF700360953 /* LHSCustomTransitionCollection.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +114,8 @@
 			children = (
 				37594F6C186F807800360953 /* LHSSideMenuTransition.h */,
 				37594F6D186F807800360953 /* LHSSideMenuTransition.m */,
+				3769A582187A268A00AC8C44 /* LHSTuckUnderTransition.h */,
+				3769A583187A268A00AC8C44 /* LHSTuckUnderTransition.m */,
 			);
 			name = Transitions;
 			sourceTree = "<group>";
@@ -117,6 +125,8 @@
 			children = (
 				37594F69186F806B00360953 /* LHSSideMenuAnimator.h */,
 				37594F6A186F806B00360953 /* LHSSideMenuAnimator.m */,
+				3769A57F187A267C00AC8C44 /* LHSTuckUnderAnimator.h */,
+				3769A580187A267C00AC8C44 /* LHSTuckUnderAnimator.m */,
 			);
 			name = Animators;
 			sourceTree = "<group>";
@@ -138,7 +148,7 @@
 			);
 			name = LHSCustomTransitionCollection;
 			productName = "LHS Custom Transition Collection";
-			productReference = 37594F1B186F7AF700360953 /* LHS Custom Transition Collection.app */;
+			productReference = 37594F1B186F7AF700360953 /* LHSCustomTransitionCollection.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -187,6 +197,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37594F65186F7E7900360953 /* main.m in Sources */,
+				3769A581187A267C00AC8C44 /* LHSTuckUnderAnimator.m in Sources */,
+				3769A584187A268A00AC8C44 /* LHSTuckUnderTransition.m in Sources */,
 				37594F6E186F807800360953 /* LHSSideMenuTransition.m in Sources */,
 				37594F6B186F806B00360953 /* LHSSideMenuAnimator.m in Sources */,
 				37594F5E186F7E5C00360953 /* LHSAppDelegate.m in Sources */,
